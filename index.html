@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Personal Portfolio Website | Chanadan</title>
+</head>
+<body>
+
+        <div class="navbar">
+                <h2> <span>C</span>handan.</h2>
+            <ul class="options">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#Projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT-ME</a></li>
+            </ul>
+            <i  id="menubar" class="fa-duotone fa-solid fa-bars"></i>
+        </div>
+       
+        <div class="First" id="home">
+            <div class="profileimg">
+                <img src="myPhoto.png" alt="">
+            </div>
+
+            <div class="profileInfo">
+                <h2>Chandan Mistry</h2>
+                <h4>Web Developer</h4>
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/chandan-kumar-mistry-99394823b/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Chandan-1824"><i class="fa-brands fa-github"></i></a>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <a href="https://facebook.com/chandan.can.5/"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="download">
+                    <a href="MY-CV.pdf" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ABOUT -------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="myPhoto.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="About-title">About Me</h1>
+                        <p>
+                            Hi, I'm a web developer, passionate about creating and developing web interfaces & full-stack websites . I have many years of experience in this area of work , with multiple quality projects.
+                        </p>
+                        
+                        <div class="tab-titles ">
+                           <p class="tab-links active" onclick="openTab('skills')">Skills</p>
+                           <p class="tab-links" onclick="openTab('experienceTab')">Experience</p>
+                           <p class="tab-links" onclick="openTab('educationTab')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br> Designing Web/App interfaces </li>
+                                <li><span>Frontend Development</span><br> Frontend Developments of Websites</li>
+                                <li><span>Backend Development</span><br> Backend Development of Websites</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-contents" id="experienceTab">
+                            <ul>
+                                <li><span>2024-Current</span><br> UI/UX Desing</li>
+                                <li><span>2023-2024</span><br> Backend Development </li>
+                                <li><span>2022-2023</span><br> Frontend Development</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="educationTab">
+                            <ul>
+                                <li><span>2021-Current</span><br> B.Tech in CSE</li>
+                                <li><span>2012-2020</span><br> High School(Higher-Secondary) </li>
+                                <li><span>2012-2018</span><br> High School(Secondary) </li>
+                                
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <!-- Services------------------->
+         <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UX/UI Design</h2>
+                        <p>This service that I offer is of high quality, and above all experience that I have in the labor field for many years.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2> Frontend Development</h2>
+                        <p>This service that I offer is of high quality, and above all experience that I have in the labor field for many years.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Backend Development</h2>
+                        <p>This service that I offer is of high quality, and above all experience that I have in the labor field for many years.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+         <!-- Projects----------- -->
+          <div class="projects" id="Projects">
+            <div class="container">
+                <h1 class="sub-title">
+                    My Projects
+                </h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Work6.jpg" alt="">
+                        <div class="layer">
+                            <h3>Amazon Clone Website</h3>
+                            <p>
+                              An Amazon clone website build using html,css.
+                            </p>
+                            <a href="
+                            #"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Work2.jpg" alt="">
+                        <div class="layer">
+                            <h3> News Website</h3>
+                            <p>
+                               A News Website where you can get recent news according to your liking.  
+                            </p>
+                            <a href="
+                            #"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Work3.jpg" alt="">
+                        <div class="layer">
+                            <h3>Gym Website</h3>
+                            <p>
+                               A Gym Website made with html, css & javaScript.   
+                            </p>
+                            <a href="
+                            #"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Work4.jpg" alt="">
+                        <div class="layer">
+                            <h3>Weather Website</h3>
+                            <p>
+                              A real time Weather website where you can search different location and see their weather condition.   
+                            </p>
+                            <a href="
+                            #"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Work5.jpg" alt="">
+                        <div class="layer">
+                            <h3>Quiz Website</h3>
+                            <p>
+                              A Quiz Website where you can take quiz test at different topic , and see your test your knowledge.
+                            </p>
+                            <a href="
+                            #"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Work1.jpg" alt="">
+                        <div class="layer">
+                            <h3>Image Search Website</h3>
+                            <p>
+                               An Image search Website where you can search different types of  images.  
+                            </p>
+                            <a href="
+                            #"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <!-- Contact --------------------------->
+           <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">
+                            Contact Me</h1>
+
+                            <p> 
+                                <i class="fa-regular fa-user"></i>
+                                Chandan Mistry
+                            </p>
+                        <p>
+                            <i class="fa-regular fa-envelope"></i>
+                            chandanmistry@gmail.com
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-phone"></i>
+                            1234567890</p>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                           
+                            <button type="submit" class="submitBtn">Submit</button>
+                        </form>
+                        <span id="confrmMsg"></span>
+                    </div>
+                </div>
+            </div>
+           </div>
+
+           <!-- Footer -->
+            <div class="footer">
+                <p>&copy;By Chandan Kumar Mistry</p>
+            </div>
+
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxFFvT5Cj5U5_Clv918A0lhie-IiQzw_lTMqyghdOsy-B0hYhQVSKa2HGzwtC5TY2W5RQ/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("confrmMsg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault();
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = "";
+                }, 5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
