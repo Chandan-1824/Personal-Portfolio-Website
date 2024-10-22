@@ -100,7 +100,7 @@ h2 span{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
 }
 .profileInfo .icon a{
     text-decoration: none;
@@ -132,7 +132,7 @@ h2 span{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
 .profileInfo .download a{
     text-decoration: none;
