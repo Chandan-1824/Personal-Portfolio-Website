@@ -25,7 +25,6 @@ body{
     align-items: center;
     background: orangered;
     z-index: 10000;
-    margin-bottom: 1rem;
 }
 .navbar h2{
     font-size: 1.8rem;
@@ -68,7 +67,7 @@ h2 span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 6rem;
     /* padding: 1rem; */
 }
 
