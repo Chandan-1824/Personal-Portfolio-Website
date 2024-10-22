@@ -19,7 +19,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 10px 2rem 10px;
+    padding: 12px 2rem 12x;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -244,17 +244,20 @@ h2 span{
     transition: background 0.5s, transfrom 0.5s;
 }
 .services-list div i{
-    font-size: 50px;
-    margin-bottom: 30px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 .services-list div h2{
     font-size: 2rem;
     margin-bottom: 10px;
 }
+.services-list div p{
+    font-size: 14px;
+}
 .services-list div a{
     text-decoration: none;
     color: #000;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 20px;
     display: inline-block;
 
