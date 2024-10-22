@@ -768,10 +768,10 @@ form input, form textarea{
     }
     /* Contact Form--------------------- */
     #contact{
-        margin: 2rem 2rem 5rem;
+        margin: 5rem 2rem 5rem;
     }
     .contact-left{
-        margin-bottom: 35px;
+        margin-bottom: 2.5rem;
     }
     .contact-left h1{
         font-size: 2rem;
