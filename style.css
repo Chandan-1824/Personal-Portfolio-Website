@@ -2,7 +2,7 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -12,6 +12,7 @@ body{
     background-color: #fff;
     color: #000;
 }
+
 
 /* navbar ------------------------- */
 .navbar{
@@ -67,7 +68,7 @@ h2 span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 6rem;
+    margin-top: 5rem;
     /* padding: 1rem; */
 }
 
