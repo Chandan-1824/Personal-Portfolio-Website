@@ -19,7 +19,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 12px 2rem 12x;
+    padding: 1rem 2rem 12x;
     display: flex;
     justify-content: space-between;
     align-items: center;
