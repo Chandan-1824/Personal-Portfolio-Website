@@ -87,7 +87,7 @@ h2 span{
     display: flex;
     justify-content: center;
     color: orangered;
-    margin-top: 1rem;
+    margin-top: 0.8rem;
     font-size: 2.5rem;
 }
 .profileInfo h4{
