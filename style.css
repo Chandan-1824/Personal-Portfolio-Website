@@ -212,6 +212,7 @@ h2 span{
  }
  
  .tab-contents li{
+    font-size: 22px;
     list-style: none;
     margin: 15px 0;
  }
