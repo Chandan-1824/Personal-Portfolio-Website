@@ -348,7 +348,7 @@ h2 span{
 
 #contact{
     /* width: 100%; */
-    margin: 2rem 5rem 5rem;
+    margin: 4rem 5rem 5rem;
 }
 .contact-left{
     flex-basis: 40%;
@@ -361,13 +361,14 @@ h2 span{
     color: orangered;
 }
 .contact-left p{
+    font-weight: 600;
     margin-top: 20px;
     display: flex;
 }
 .contact-left i{
     color: orangered;
     font-size: 18px;
-    margin-right: 6px;
+    margin-right: 8px;
 }
 
 .contact-right form{
