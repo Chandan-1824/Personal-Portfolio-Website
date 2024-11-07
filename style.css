@@ -695,9 +695,6 @@ form input, form textarea{
     #about{
         padding: 6rem 1rem 2rem;
     }
-     .About-title{
-        font-weight: 600;
-    }
     .row{
         flex-direction: column;
     }
@@ -719,7 +716,7 @@ form input, form textarea{
         margin-top: 10px;
         font-size: 14px;
     }
-    .About-title{
+    .about-col-2 .About-title{
         font-size: 2rem;
         font-weight: 600;
     }
