@@ -690,7 +690,7 @@ form input, form textarea{
     /* About ------------ */
 
     #about{
-        padding: 6rem 2rem 2rem;
+        padding: 6rem 1rem 2rem;
     }
     .row{
         flex-direction: column;
@@ -716,6 +716,7 @@ form input, form textarea{
     }
     .About-title{
         font-size: 2rem;
+        font-weight: 600;
     }
     
     .tab-titles{
@@ -729,7 +730,7 @@ form input, form textarea{
     /* Serrvices---------------- */
 
     #services{
-        padding: 1rem 2rem;
+        padding: 1rem 1rem;
     }  
     .services-list{
         grid-gap: 1.5rem;
@@ -755,7 +756,7 @@ form input, form textarea{
 
     /* Projects--------------------------- */
     .projects{
-        padding: 2rem 2rem;
+        padding: 2rem 1rem;
     }
    .projects .container .sub-title{
     font-size: 2rem;
