@@ -178,6 +178,9 @@ h2 span{
     font-weight: 600;
     margin-bottom: 1rem;
 }
+    .about-col-2 p{
+     font-size: 18px;
+    }
 
 .tab-titles{
     display: flex;
@@ -714,7 +717,7 @@ form input, form textarea{
     }
     .about-col-2 p{
         margin-top: 10px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .About-title{
         font-size: 2rem;
